@@ -9,7 +9,8 @@ os.chdir(os.path.dirname(os.path.realpath(sys.argv[0])))
 try:
     import winput
     import PIL
-    
+    x=str(input("set dpi aware : "))
+    # set_DPI_aware
     assert hasattr(winput, "set_DPI_aware")
         
 except:
